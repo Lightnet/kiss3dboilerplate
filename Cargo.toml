@@ -1,0 +1,26 @@
+[package]
+name = "kiss3dboilerplate"
+version = "0.1.0"
+authors = ["Lightnet"]
+
+#https://devhub.io/repos/sebcrozet-kiss3d
+#[dependencies.kiss3d]
+#git = "https://github.com/sebcrozet/kiss3d"
+#version = "0.21"
+
+[dependencies]
+kiss3d = "0.21"
+nalgebra = "0.18.1"
+
+#https://lib.rs/crates/glfw
+[dependencies.glfw]
+git = "https://github.com/bjz/glfw-rs.git"
+default-features = false
+
+#[[bin]]
+#name = "app-server"
+#path = "src/main.rs"
+
+#[[bin]]
+#name = "app-client"
+#path = "src/client.rs"
